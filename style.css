@@ -160,3 +160,15 @@ input[type=range]::-moz-range-thumb {
   background: #ffc600;
   cursor: pointer;
 }
+
+.player.full {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  background-color: #000;
+}
+
+.player.full video {
+  width: 100%;
+  height: 100%;
+}
